@@ -300,7 +300,7 @@ img {
     column-gap: 50px;
     text-align: center;
   }
-  .list .link {
+  .list .link a{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -331,7 +331,7 @@ img {
     column-gap: 50px;
     text-align: center;
   }
-  .list .link {
+  .list .link a{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -446,4 +446,57 @@ img {
   color: white;
   padding: 20px 20px 20px 50px;
   float: left;
+}
+
+@media (max-width: 1366px) {
+  .nav .option {
+    font-size: 22px;
+  }
+}
+@media (min-width: 1023.9px) and (max-width: 1365.9px){
+  .nav .option {
+    font-size: 16px;
+  }
+  .nav .nav-menu .nav-menu-list {
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+}
+@media (min-width: 768.9px) and (max-width: 1023.9px) {
+  .nav {
+    width: 100%;
+  }
+  .informer {
+    display: none;
+  }
+}
+@media (min-width: 424.9px) and (max-width: 768px) {
+  .nav {
+    width: 100%;
+  }
+  .nav .option {
+    font-size: 12px;
+  }
+  .nav .nav-menu .nav-menu-list {
+    font-size: 10px;
+    margin-bottom: 20px;
+  }
+  .informer {
+    display: none;
+  }
+}
+@media (min-width: 360px) and (max-width: 424px) {
+  .nav {
+    width: 100%;
+  }
+  .nav .option {
+    font-size: 8px;
+  }
+  .nav .nav-menu .nav-menu-list {
+    font-size: 6px;
+    margin-bottom: 20px;
+  }
+  .informer {
+    display: none;
+  }
 }
