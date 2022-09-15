@@ -1,0 +1,46 @@
+/* Geral */
+
+body,
+ul,
+li,
+p {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  font-size: 1rem;
+  font-family: Arial;
+  font-size: inherit;
+}
+
+a {
+  text-decoration: none;
+}
+input,
+select,
+button {
+  border: none;
+  font-family: "Arial";
+  background: none;
+}
+.button-primary {
+  background-color: #32cd32;
+  color: #fff;
+}
+.button-second {
+  background-color: gray;
+  color: #fff;
+}
+.title-color {
+  color: #32cd32;
+}
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* CORPO DA PÁGINA */
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+}

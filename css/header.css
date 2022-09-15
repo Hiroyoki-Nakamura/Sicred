@@ -1,0 +1,100 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+  }
+  .header .access {
+    display: flex;
+    font-weight: bold;
+    align-items: center;
+    text-align: center;
+  }
+  .header .access .label,
+  .input {
+    margin-right: 20px;
+  }
+  .header .input {
+    border-bottom: 1px solid gray;
+  }
+  .header .btn-open-acount {
+    padding: 22px;
+    margin: 10px;
+    font-weight: bold;
+  }
+  .header .display-buttons .search,
+  .toggle {
+    padding: 26px;
+    font-size: 32px;
+    margin: 0;
+  }
+  
+  @media (max-width: 1366px) {
+  }
+  @media (min-width: 768.9px) and (max-width: 1365.9px) {
+    .header .btn-open-acount {
+      padding: 8px;
+      margin: 10px;
+      font-weight: bold;
+    }
+    .header .display-buttons .search,
+    .toggle {
+      padding: 20px;
+      font-size: 26px;
+      margin: 0;
+    }
+  }
+  @media (min-width: 424.9px) and (max-width: 768px) {
+    .header{
+      display: flex;
+      width: 100%;
+      padding: 12px;
+      border-bottom: 1px solid black;
+    }
+    .header .access {
+      display: flex;
+      font-size: 8px;
+      font-weight: bold;
+      align-items: center;
+      text-align: center;
+    }
+    .header .btn-open-acount {
+      padding: 8px;
+      font-size: 6px;
+      margin: 10px;
+      font-weight: bold;
+    }
+    .header .display-buttons .search,
+    .toggle {
+      padding: 8px;
+      font-size: 6px;
+      margin: 0;
+    }
+  }
+  @media (min-width: 360px) and (max-width: 424px) {
+    .header{
+      display: flex;
+      width: 100%;
+      padding: 12px;
+      border-bottom: 1px solid black;
+    }
+    .header .access {
+      display: flex;
+      font-size: 6px;
+      font-weight: bold;
+      align-items: center;
+      text-align: center;
+    }
+    .header .btn-open-acount {
+      padding: 4px;
+      font-size: 6px;
+      margin: 8px;
+      font-weight: bold;
+    }
+    .header .display-buttons .search,
+    .toggle {
+      padding: 6px;
+      font-size: 4px;
+      margin: 0;
+    }
+  }
